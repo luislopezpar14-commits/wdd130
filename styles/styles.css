@@ -62,3 +62,26 @@ footer {
     color: #222;
     border-radius: 4px;
 }
+
+header,
+footer,
+.grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: #111;
+    border-bottom: 2px solid #333;
+}
