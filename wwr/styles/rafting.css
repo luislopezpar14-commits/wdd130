@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #333;
 }
 
 header,
@@ -147,7 +147,7 @@ section p {
 
 .history-content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 16px;
     align-items: center;
     padding: 16px;
@@ -354,9 +354,9 @@ footer p {
 }
 
 .team-member img {
-    width: 100%;
-    height: auto;
-    max-width: 200px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border-radius: 4px;
     margin-bottom: 10px;
 }
@@ -365,4 +365,13 @@ footer p {
     font-weight: bold;
     color: var(--primary-color);
     margin: 10px 0 0 0;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto 10px;
+    display: block;
 }
