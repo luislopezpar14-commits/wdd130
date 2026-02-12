@@ -81,7 +81,30 @@ nav {
     justify-content: space-around;
 }
 
+.hero {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-bottom: 2rem;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
 h1 {
-    color: #111;
-    border-bottom: 2px solid #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-size: 48px;
+    border-bottom: none;
 }
